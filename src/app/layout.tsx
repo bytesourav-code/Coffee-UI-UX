@@ -6,6 +6,7 @@ import Hero from "./components/Hero";
 import Explore from "./components/Explore";
 import OrderCoffee from "./components/OrderCoffee";
 import SellingCoffee from "./components/SellingCoffee";
+import InstantCoffee from "./components/InstantCoffee";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -37,6 +38,7 @@ export default function RootLayout({
         <Explore />
         <OrderCoffee />
         <SellingCoffee />
+        <InstantCoffee />
         <main>{children}</main>
       </body>
     </html>
